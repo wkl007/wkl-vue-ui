@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
+
 // 全部导入
-// import WklVueUI from '../components'
-// Vue.use(WklVueUI)
+import WklVueUI from 'wkl-vue-ui'
+
+Vue.use(WklVueUI)
 
 // 按需导入
-import { Button } from '../components'
-
-Vue.use(Button)
+// import { Button } from 'wkl-vue-ui'
+// Vue.use(Button)
 
 Vue.config.productionTip = false
 
