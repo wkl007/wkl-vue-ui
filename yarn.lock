@@ -10067,13 +10067,14 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-wkl-vue-ui@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npm.taobao.org/wkl-vue-ui/download/wkl-vue-ui-0.1.0.tgz?cache=0&sync_timestamp=1590813729209&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fwkl-vue-ui%2Fdownload%2Fwkl-vue-ui-0.1.0.tgz#0c61cf41c633dd5668fbb6895fc793e902d5d5d0"
-  integrity sha1-DGHPQcYz3VZo+7aJX8eT6QLV1dA=
+wkl-vue-ui@^0.1.0, wkl-vue-ui@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.npm.taobao.org/wkl-vue-ui/download/wkl-vue-ui-0.1.1.tgz?cache=0&sync_timestamp=1590817549454&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fwkl-vue-ui%2Fdownload%2Fwkl-vue-ui-0.1.1.tgz#6a38b49608087aaa85391ca6a89c86bdd407892b"
+  integrity sha1-aji0lggIeqqFORymqJyGvdQHiSs=
   dependencies:
     core-js "^3.6.5"
     vue "^2.6.11"
+    wkl-vue-ui "^0.1.0"
 
 word-wrap@~1.2.3:
   version "1.2.3"

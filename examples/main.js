@@ -3,6 +3,9 @@ import App from './App.vue'
 
 // 全部导入
 import WklVueUI from 'wkl-vue-ui'
+import { isUrl } from 'wkl-vue-ui/libs/utils'
+
+console.log(isUrl('https://www.baidu.com'))
 
 Vue.use(WklVueUI)
 
